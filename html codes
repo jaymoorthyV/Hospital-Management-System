@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <title>Doctor</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstap/3.4.1/css/bootstrap.min.css">
+            <link rel="stylesheet"href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="Sha384-AYmEC3YW5CVb3ZcuHtoA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGKvsg+p" crossorigin="anonymous"
+            <link rel="stylesheet"href="stylesheet.css">
+            <link rel="stylesheet" href="stylesheet.css">
+      </head>
+      <header>
+            <div class="container-fluid">
+                  <div class="row">
+                        <div class="col-md-7 border">
+                              <div class="logo border">
+                                    <a href="main.html">
+                                    <img src="c:\Users\ADMIN\Pictures\download (2).jpg" alt="logo">
+                                    </a>
+                              </div>
+                              <div class="menu">
+                                    <ul>
+                                          <li>
+                                                <a href="javascript:void(0);">Home</a>
+                                          </li>
+                                          <li>
+                                                <a href="javascript:void(0);">About</a>
+                                          </li>
+                                          <li>
+                                                <a href="javascript:void(0);">Pages</a>
+                                          </li>
+                                          <li>
+                                                <a href="javascript:void(0);">Elements</a>
+                                          </li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="col.md-2">
+                              <div class="header-socialtext-center">
+                                    <ul>
+                                          <li>
+                                                <a href="javascript:void(0);">
+                                                      <i class="fas fa-seach"></i>
+                                                </a>
+                                          </li>
+                                    <ul>
+                                    <a href="javascript:void(0);">
+                                          <li class="fas fa-map-marker-all"></a>
+                                    </a>
+                              </li>
+                              </ul>
+                              </div>
+                        </div>
+                        <div class="col-md-3">
+                              <a href="javascript:void(0);" class="btn-green mt-20px">
+                                    <i class="fas fa-calendar-week"></i>Make a payment
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </header>
+      <section class="banner"style="background-img:url(c:\Users\ADMIN\Pictures\doctor.img.webp);">
+          <div class="container">
+            <div class="bannar-content">
+                  <img src="./images/banner-logo.png" alt="banner-logo">
+                  <h1>Our expertise at your service</h1>
+            </div>
+            <div class="service">
+                  <a href="javascript:void(0);">
+                        <div class="service-content">
+                              our service providers
+                        </div>
+                        <div class="service-btn">
+                              <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="service-icon">
+                              <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="service">
+                              <a href="javascript:void(0);">
+                                    <div class="service-content">
+                                          Book an Appointment
+                                    </div>
+                                    <div class="service-btn">
+                                          <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="service-icon">
+                                          <i class="fas fa-calender"></i>
+                                    </div>
+                                    <div class="service">
+                                          <a href="javascript:void(0);">
+                                                <div class="service-content">
+                                                      Have an Emergency
+                                                </div>
+                                                <div class="service-btn">
+                                                      <i class="fas fa-arrow-right"></i>
+                                                </div>
+                                                <div class="service-icon">
+                                                      <i class="fas fa-heartbeat"></i>
+                                                      <div class="call">
+                                                            <i class="fas fa-phone-volume"></i>
+                                                      </div>
+                                                      <div class="call-number">
+                                                            <p>Doctors help patients to get relief from their pain. Doctors play a very essential role in human life. We can say Doctors are the incarnation of the god. In India, we celebrate National Doctor's Day on July of 1st to thank physicians and doctors for their dedicated services to patients.</p>
+                                                            <h3>1-800-900</h3>
+                                                      </div>
+                                                      </div>
+                                                </div>
+                  </a>
+            </div>
+          </div>  
+      </section>
+      <section class="work">
+            <div class="container-fluid text-center">
+                  <div class="row">
+                        <div class="col.md-4">
+                              </div>
+                              <div class="col-md-4">
+                                    <div class="response">
+                                          <a href="javascript:(0);">
+                                                <div class="response-bg" style="background-image:url(./c:\Users\ADMIN\Pictures\images.jpg);"></div>
+                                                <div class="response-content">
+                                                      <div class="response-icon">
+                                                            <i class="fas fa-canadian-maple-leaf"></i>
+                                                      </div>
+                                                      <h2>our covid-19 response</h2>
+                                                      <p>Doctors help patients to get relief from their pain. Doctors play a very essential role in human life. We can say Doctors are the incarnation of the god. In India, we celebrate National Doctor’s Day on July of 1st to thank physicians and doctors for their dedicated services to patients. </p>
+                                                      <button type="button"class="read-move mt-20px">read more<i class="fans-arrow-right"></i></button>
+                                                </div>
+                                          </a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <script>
+            var header=document.getElementsByTagName("header");
+            window.onscroll=function(){scrollfunction()};
+            function scrollFunction(){
+                  if(document.body.scrollTop>200||document.documentElement.scrollTop>200)
+                  {header[0].setAttribute("class","header-active");
+                  }
+                  else{
+                        header[0] removeAttribute("class")
+                  }
+            }
+      </script>
+</html>
